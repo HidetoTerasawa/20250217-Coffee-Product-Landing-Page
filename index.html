@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>コーヒー豆　プロダクトランディングページ</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3d31359043.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="cooltext476129255215032.png" alt="ロゴ" />
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">特徴</a>
+        <a href="#Video-Introduction" class="nav-link">動画紹介</a>
+        <a href="#price" class="nav-link">価格</a>
+      </nav>
+    </header>
+    <div><h1 class="heading">極上の一杯を、あなたたに。</h1></div>
+
+    <section id="features">
+      <h2>特徴</h2>
+      <!-- セクション1の内容 -->
+      <div class="grid">
+        <div class="icon"><i class="fa-solid fa-mug-hot"></i></div>
+        <div class="desc">
+          <h2>こだわり</h2>
+          <p>
+            私たちのコーヒー豆は、一粒一粒に情熱を注いで選び抜かれたものです。世界中の最高品質の農園から厳選され、完璧な風味と香りを追求しています。豊かな土壌と気候条件のもと、丁寧に育てられたコーヒー豆は、あなたに至福の一杯をお届けします。
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa-solid fa-truck-front"></i></div>
+        <div class="desc">
+          <h2>配送</h2>
+          <p>
+            ご注文いただいたコーヒー豆は、迅速かつ丁寧に配送いたします。新鮮さを保つために、発送前に一つ一つ丁寧にパッケージングしています。お客様のもとへ、最高の状態でお届けすることをお約束します。迅速な配送と安心の追跡サービスを提供し、いつでもご注文の状態を確認いただけます。
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa-solid fa-clipboard-list"></i></div>
+        <div class="desc">
+          <h2>品質保証</h2>
+          <p>
+            私たちは品質に対する強い信念を持っています。すべてのコーヒー豆は、厳格な品質管理のもとで取り扱われ、最高の品質基準を満たしています。もし、商品にご満足いただけない場合は、返金または交換を保証いたします。お客様の満足を最優先に考え、信頼と安心のサービスを提供いたします。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Video-Introduction">
+      <h2>プレビュー</h2>
+      <!-- セクション2の内容 -->
+      <iframe
+        id="video"
+        src="2853793-uhd_2560_1440_24fps.mp4"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section id="price">
+      <h2>価格</h2>
+      <div class="product" id="standard">
+        <div class="level">普通のコーヒー豆</div>
+        <h3>¥600</h3>
+        <ol>
+          <li>新鮮な風味</li>
+          <li>バランスの取れた味わい</li>
+          <li>手軽な価格</li>
+          <li>多用途で楽しめる</li>
+        </ol>
+        <button class="btn">選択</button>
+      </div>
+      <div class="product" id="premium">
+        <div class="level">少しグレードのいいコーヒー豆</div>
+        <h3>¥900</h3>
+        <ol>
+          <li>厳選された豆</li>
+          <li>豊かなアロマ</li>
+          <li>スムーズな後味</li>
+          <li>特別なひとときに</li>
+        </ol>
+        <button class="btn">選択</button>
+      </div>
+      <div class="product" id="gourmet">
+        <div class="level">最高品質のコーヒー豆</div>
+        <h3>¥1200</h3>
+        <ol>
+          <li>最高級の風味と香り</li>
+          <li>シングルオリジン</li>
+          <li>豊かな風味の深さ</li>
+          <li>贅沢なひととき</li>
+        </ol>
+        <button class="btn">選択</button>
+      </div>
+    </section>
+    <p class="note">※送料は別途かかります。</p>
+
+    <form
+      id="form"
+      action="https://www.freecodecamp.com/email-submit"
+      method="post"
+    >
+      <p>
+        業者の方や大量注文をご希望の方は、下記にメールアドレスを入力し、取引内容を詳細にお伝え下さい。
+      </p>
+      <label for="email">Eメールアドレス:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Eメールアドレスを入力"
+        required
+      />
+      <input type="submit" id="submit" value="入力欄に進む" />
+    </form>
+  </body>
+  <footer>
+    <ul>
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li><a href="#">利用規約</a></li>
+      <li><a href="#">お問い合わせ</a></li>
+    </ul>
+    <span>© 2025, [あなたのコーヒーブランド名]</span>
+  </footer>
+</html>
