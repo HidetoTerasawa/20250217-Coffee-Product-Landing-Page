@@ -1,6 +1,6 @@
 ●タイトル：コーヒー豆の販売ページ
 
-●URL：https://hidetoterasawa.github.io/20250217-Coffee-Product-Landing-Page/
+●URL：https://hidetoterasawa.github.io/Coffee-Product-Landing-Page/
 
 ●概要：自己学習として作成。
 コーヒー豆の販売ページです。世界中の厳選された農園から仕入れた豆を扱い、豊かな香りと深い味わいを楽しめる商品を提供という設定で作成しています。
